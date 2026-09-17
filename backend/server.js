@@ -38,7 +38,8 @@ setTimeout(createDefaultSlots, 2000);
 app.use(cors({
     origin: [
         'http://localhost:5173',
-        process.env.FRONTEND_URL || 'https://your-frontend.vercel.app'
+        'https://parking-management-system-umber.vercel.app',
+        'https://parking-management-system-git-main-sriramkolas-projects.vercel.app'
     ],
     credentials: true
 }));
